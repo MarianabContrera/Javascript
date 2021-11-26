@@ -1,6 +1,6 @@
 
 
-/*Crear elementos manipulando el DOM a partir de la informaciòn de tus objetos.*/
+/*Parte 1: Crear elementos manipulando el DOM a partir de la informaciòn de tus objetos.*/
 
 const habitaciones = [{ id: 1,  tipo: "Individual", precio: 1000 },
                   {  id: 2,  tipo: "Doble", precio: 1500 },
@@ -17,7 +17,7 @@ for (const habitacion of habitaciones) {
 }
 
 
-/* Modificar etiquetas existentes en función del resultado de operaciones. */
+/* Parte 2:Modificar etiquetas existentes en función del resultado de operaciones. */
 
 const locacion = document.querySelector('h1');
 console.log(locacion);
